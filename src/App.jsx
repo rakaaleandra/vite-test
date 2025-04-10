@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import './Tailwind.css'
 
 function App({author,author2}) {
   const [count, setCount] = useState(0);
@@ -45,7 +46,7 @@ function App({author,author2}) {
           Reset
         </button>
         <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
+          Edit <code>src/App.jsx</code> and save to test HMR <a href="../index2.html">Move to Next Page</a>
         </p>
       </div>
       <p className="read-the-docs">
